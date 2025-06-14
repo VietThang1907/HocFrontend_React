@@ -1,0 +1,100 @@
+/* reset margin, padding  */
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.red {
+  border: 1px solid red;
+}
+
+.green {
+  border: 1px solid green;
+}
+
+.banner {
+  height: 500px;
+  background-image: url("./banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 20px;
+}
+
+.about-sign-in {
+  height: 80px;
+  width: 100%;
+  text-align: right;
+}
+
+.about,
+.sign-in {
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 7px 15px;
+  text-transform: uppercase;
+}
+
+.sign-in {
+  margin-right: 60px;
+  margin-left: 25px;
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+.logo {
+  background: url("./logo.png") center center no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  height: 200px;
+  width: 200px;
+}
+
+.text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn-start-now {
+  text-align: center;
+}
+
+button {
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border: 1px solid green;
+  border-radius: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.content-center {
+  height: 50px;
+}
+
+.left,
+.right,
+.center {
+  width: 33%;
+  displays: inline-block;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left,
+.right,
+.center {
+  display: block;
+}
+
+span {
+  display: block;
+  font-size: 20px;
+}
+
+img {
+  width: 30px;
+  height: 30px;
+}
